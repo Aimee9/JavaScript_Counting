@@ -1,10 +1,3 @@
-var numbersList = function(userNumber) {
-  var arrayList = [];
-  for (var i =1; i <= userNumber; i++) {
-    arrayList.push(i);
-  } return arrayList;
-}
-
 var multipleList = function(userNumber, multipleNumber) {
   var multipleList = "";
   for (var i = multipleNumber; i <= userNumber; i+=multipleNumber) {

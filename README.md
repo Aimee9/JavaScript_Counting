@@ -1,12 +1,12 @@
-# <Name>
+# Counting By Mulitples!
 
-##### <Brief Description>, <Date>
+##### Count up in multiples, Sept, 2015
 
-#### <Authors>
+#### Aimee Reiss and Ashley Sullins
 
 ## Description
-
-
+This app allows a user to input a number they want to count up to and then input a multiple they want it to be counted by.
+It will then output those numbers.
 
 ## Setup
 
@@ -23,7 +23,7 @@ No special setup required
 
 
 
-Copyright (c) 2015 <Authors>
+Copyright (c) 2015 Aimee Reiss and Ashley Sullins
 
 This software is licensed under the MIT license.
 
