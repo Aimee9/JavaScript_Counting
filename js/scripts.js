@@ -6,24 +6,26 @@ var numbersList = function(userNumber) {
 }
 
 var multipleList = function(userNumber, multipleNumber) {
-  var multipleList = [];
+  var multipleList = "";
   for (var i = multipleNumber; i <= userNumber; i+=multipleNumber) {
-    multipleList.push(i);
+    multipleList += (i);
+    multipleList += (" ");
   }
   return multipleList;
 }
 
-//
-// $(document).ready(function() {
-//   $("form#factorial").submit(function(event) {
-//     var number= parseInt($("input#number").val());
-//     var result = factorial(number);
-//
-//       $(".number").text(number)
-//       $(".final").text(result)
-//        $("#result").show()
-//
-//
-//     event.preventDefault();
-//   });
-// });
+
+$(document).ready(function() {
+  $("form#inputtedNumbers").submit(function(event) {
+    $(".result").remove();
+    var number= parseInt($("input#number").val());
+    var multiple= parseInt($("input#multiple").val());
+    var count= multipleList(number, multiple);
+      $(".results").text(count);
+       $("#result").show()
+
+
+
+    event.preventDefault();
+  });
+});
