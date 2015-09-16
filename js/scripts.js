@@ -5,7 +5,13 @@ var numbersList = function(userNumber) {
   } return arrayList;
 }
 
-
+var multipleList = function(userNumber, multipleNumber) {
+  var multipleList = [];
+  for (var i = multipleNumber; i <= userNumber; i+=multipleNumber) {
+    multipleList.push(i);
+  }
+  return multipleList;
+}
 
 //
 // $(document).ready(function() {
